@@ -1,0 +1,32 @@
+#root {
+  text-align: center;
+  background-color: #C9D8DD;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.about-section {
+  min-height: 100vh;
+  padding: 120px 20px 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #C9D8DD;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}

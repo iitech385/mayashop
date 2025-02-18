@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Hello Paris Sans';
+  src: url('../fonts/HelloParisSansRegular.ttf') format('truetype');
+  /* or for .otf:
+  src: url('../fonts/HelloParisSans.otf') format('opentype'); 
+  */
+  font-weight: normal;
+  font-style: normal;
+} 
