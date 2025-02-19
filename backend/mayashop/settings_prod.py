@@ -1,6 +1,11 @@
-from .settings import *
 import os
+import sys
 import dj_database_url
+
+# Add the project directory to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from mayashop.settings import *
 
 DEBUG = False
 ALLOWED_HOSTS = ['*']  # Replace with your Render domain later
