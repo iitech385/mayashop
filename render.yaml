@@ -1,1 +1,14 @@
- 
+services:
+  - type: web
+    name: mayashop-backend
+    env: python
+    buildCommand: chmod +x backend/build.sh && ./backend/build.sh
+    startCommand: cd backend && gunicorn mayashop.wsgi:application
+    rootDir: .
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: mayashop.settings_prod
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite:///db.sqlite3 

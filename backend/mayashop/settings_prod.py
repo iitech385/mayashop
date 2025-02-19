@@ -19,7 +19,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "https://your-netlify-domain.netlify.app",  # Replace with your Netlify domain
+    "https://mayashop-iitech385.netlify.app",  # Replace with your actual Netlify domain
 ]
 CORS_ALLOW_CREDENTIALS = True
 
